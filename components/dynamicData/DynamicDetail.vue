@@ -38,7 +38,7 @@
 
               <!-- BLOCK TITLE -->
               <h1 id="block-title" class="title is-3">
-                {{ matchProjectWithConfig('block_title')}}
+                {{ displayableItem.Enthic.denomination.value }}
               </h1>
               <ul>
                 <li v-for="data in displayableEnthicData.flatData">{{ data.description }} : {{ data.value }}</li>
@@ -93,11 +93,11 @@
                 <p>{{ matchProjectWithConfig('block_partners')}}</p>
               </div>
 
-              <!-- BLOCK POST ABSTRACT 1 -->
+              <!-- BLOCK POST ABSTRACT 1
               <p id="block-post-abstract-1">
                 <apexchart type="bar" height="350" :options="chartDetails.chartOptions" :series="chartDetails.series"></apexchart>
               </p>
-
+-->
               <!-- BLOCK POST ABSTRACT 2 -->
               <p id="block-post-abstract-2">
               </p>
